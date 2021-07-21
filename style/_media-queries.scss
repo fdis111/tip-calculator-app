@@ -1,0 +1,12 @@
+@media only screen and (max-width: 450px) {
+	main {
+		display: block;
+		margin-top: 100px;
+	}
+
+	.calculator {
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+	}
+}

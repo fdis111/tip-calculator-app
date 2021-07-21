@@ -10,7 +10,14 @@ $light_grayish_cyan: hsl(189, 41%, 97%);
 
 // pading and margin
 
-$normal-padding: 2rem;
+$normal-padding: 1.5rem;
 $small-padding: 0.7rem;
 $extra-small-padding: 0.4rem;
-$normal-border-raduis: 10px;
+
+//border
+$small-border-radius: 3px;
+$normal-border-radius: 10px;
+$big-border-raduis: 16px;
+
+//gap
+$normal-gap: 30px;
