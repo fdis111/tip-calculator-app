@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Space Mono", monospace;
 }
 
 body {
@@ -13,14 +14,17 @@ main {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  font-size: 1rem;
 }
 
 ::-webkit-input-placeholder {
   text-align: right;
+  font-size: 1rem;
 }
 
 :-moz-placeholder {
   text-align: right;
+  font-size: 1rem;
 }
 
 input {
@@ -44,6 +48,9 @@ button {
   border: none;
   background-color: #00494d;
   color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
 }
 button:hover {
   background-color: #c5e4e7;
@@ -56,7 +63,7 @@ button:disabled {
 
 .btn--primary {
   background-color: #26c0ab;
-  color: white;
+  color: #00494d;
 }
 
 .input {
@@ -66,6 +73,12 @@ button:disabled {
   position: absolute;
   bottom: 25%;
   left: 1rem;
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #26c0ab;
 }
 
 .img--center {
@@ -129,6 +142,10 @@ button:disabled {
   display: flex;
   justify-content: space-between;
   margin-bottom: 1.5rem;
+}
+.balancer .balancer__line .person {
+  font-size: 0.8rem;
+  color: #26c0ab;
 }
 
 @media only screen and (max-width: 450px) {

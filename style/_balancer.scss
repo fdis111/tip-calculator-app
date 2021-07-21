@@ -11,5 +11,10 @@
 		display: flex;
 		justify-content: space-between;
 		margin-bottom: 1.5rem;
+
+		.person {
+			font-size: 0.8rem;
+			color: $primary;
+		}
 	}
 }

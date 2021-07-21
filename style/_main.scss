@@ -2,6 +2,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	font-family: 'Space Mono', monospace;
 }
 
 body {
@@ -13,13 +14,16 @@ main {
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
+	font-size: 1rem;
 }
 ::-webkit-input-placeholder {
 	text-align: right;
+	font-size: 1rem;
 }
 
 :-moz-placeholder {
 	text-align: right;
+	font-size: 1rem;
 }
 input {
 	border: none;
@@ -41,6 +45,9 @@ button {
 	border: none;
 	background-color: $very_dark_cyan;
 	color: $white;
+	font-weight: bold;
+	font-size: 1rem;
+	cursor: pointer;
 	&:hover {
 		background-color: $grayish_cyan;
 		color: $very_dark_cyan;
@@ -50,9 +57,10 @@ button {
 		color: $very_dark_cyan;
 	}
 }
+
 .btn--primary {
 	background-color: $primary;
-	color: $white;
+	color: $very_dark_cyan;
 }
 .input {
 	position: relative;
@@ -62,6 +70,12 @@ button {
 		left: 1rem;
 	}
 }
+.price {
+	font-size: 2rem;
+	font-weight: bold;
+	color: $primary;
+}
+
 .img--center {
 	margin: auto;
 	display: block;
