@@ -128,6 +128,7 @@ button:disabled {
   padding: 1.5rem;
   background-color: white;
   border-radius: 16px;
+  max-width: 750px;
   width: 50vw;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -173,11 +174,25 @@ button:disabled {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    width: 100vw;
   }
 
   .counter .tips .tips--btns {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 1500px) and (min-width: 700px) {
+  .calculator {
+    width: 80vw;
+  }
+}
+@media only screen and (max-width: 700px) and (min-width: 451px) {
+  .calculator {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 70vw;
   }
 }
 

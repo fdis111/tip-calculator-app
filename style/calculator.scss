@@ -2,6 +2,7 @@
 	padding: $normal-padding;
 	background-color: $white;
 	border-radius: $big-border-raduis;
+	max-width: 750px;
 	width: 50vw;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
