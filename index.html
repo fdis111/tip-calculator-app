@@ -28,15 +28,19 @@
 					<div class="counter">
 						<div>
 							<div>
-								<label for="bill">Bill</label>
+								<label for="bill" class="label">Bill</label>
 							</div>
 							<div class="input">
-								<span class="input-icon">$</span>
-								<input type="number" placeholder="000" name="bill" id="bill" />
+								<span
+									class="iconify input-icon"
+									data-icon="bi:currency-dollar"
+									data-inline="false"
+								></span>
+								<input type="number" placeholder="0" name="bill" id="bill" />
 							</div>
 						</div>
 						<div class="tips mgx-1">
-							<span>Select Tip %</span>
+							<p class="tips__label label">Select Tip %</p>
 							<div class="tips--btns">
 								<div>
 									<button>5%</button>
@@ -54,17 +58,26 @@
 									<button>50%</button>
 								</div>
 								<div>
-									<button>Custom%</button>
+									<button disabled>Custom</button>
 								</div>
 							</div>
 						</div>
 						<div>
 							<div>
-								<label for="bill">Number of People</label>
+								<label for="people" class="label">Number of People</label>
 							</div>
 							<div class="input">
-								<span class="input-icon">$</span>
-								<input type="number" placeholder="000" name="bill" id="bill" />
+								<span
+									class="iconify input-icon"
+									data-icon="fa-solid:user"
+									data-inline="false"
+								></span>
+								<input
+									type="number"
+									placeholder="0"
+									name="people"
+									id="people"
+								/>
 							</div>
 						</div>
 					</div>
@@ -72,14 +85,14 @@
 						<div>
 							<div class="balancer__line">
 								<div>
-									<div>Tip Anout</div>
+									<div class="label">Tip Anout</div>
 									<span class="person">/ person</span>
 								</div>
 								<div class="price">$0.00</div>
 							</div>
 							<div class="balancer__line">
 								<div>
-									<div>Total</div>
+									<div class="label">Total</div>
 									<span class="person">/ person</span>
 								</div>
 								<div class="price">$0.00</div>
@@ -92,5 +105,6 @@
 				</div>
 			</div>
 		</main>
+		<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 	</body>
 </html>

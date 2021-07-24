@@ -9,4 +9,12 @@
 		flex-direction: column;
 		gap: 30px;
 	}
+	.counter {
+		.tips {
+			.tips--btns {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+			}
+		}
+	}
 }
